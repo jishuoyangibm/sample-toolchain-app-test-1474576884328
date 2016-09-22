@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: sample-toolchain-app-test
+  host: sample-toolchain-app-test
+  disk_quota: 1024M
+  services:
+  - sample-toolchain-app-test-cloudantNoSQLDB
+  - performance-monitoring-auto
